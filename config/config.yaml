@@ -1,0 +1,40 @@
+# Evidential Dosiomics Configuration
+
+# Data paths
+data_root: "./data"
+result_dir: "./results"
+
+# Registration parameters (PI-INR)
+registration:
+  target_spacing: [2.0, 2.0, 2.0]
+  epochs_fr1: 1500
+  epochs_warm: 400
+  batch_points: 25000
+  learning_rate: 0.0005
+  omega_0: 20.0
+  random_seed: 42
+
+# Loss weights
+loss_weights:
+  lambda_edl: 1.0
+  lambda_edge: 5.0
+  lambda_smooth: 0.1
+  lambda_phys: 0.2
+  lambda_fold_init: 0.1
+  lambda_fold_max: 5.0
+  gamma_metric: 10.0
+
+# Feature extraction
+feature_extraction:
+  bin_width: 5
+  resampled_pixel_spacing: [2.0, 2.0, 2.0]
+  penumbra_lower: 0.20
+  penumbra_upper: 0.80
+  epistemic_threshold: 85
+
+# Machine learning
+ml:
+  cv_folds: 5
+  lasso_c: 0.1
+  random_state: 42
+  classification_threshold: 0.5

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+authors:
+  - family-names: "Deng"
+    given-names: "Yongjin"
+  - family-names: "Wu"
+    given-names: "Shuang"
+  - family-names: "Bao"
+    given-names: "Yong"
+title: "Evidential Dosiomics: Decoupling and Propagating Registration Uncertainty for Robust Dosimetric Violation Prediction in Adaptive Radiotherapy"
+version: 1.0.0
+date-released: 2026-04-16
+url: "https://github.com/YongjinDeng/Evidential-Dosiomics"
+repository-code: "https://github.com/YongjinDeng/Evidential-Dosiomics"
+license: "MIT"
+keywords:
+  - adaptive radiotherapy
+  - dosiomics
+  - uncertainty quantification
+  - deformable image registration
+  - medical image analysis
+type: software
