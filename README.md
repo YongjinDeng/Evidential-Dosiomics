@@ -4,15 +4,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
-Evidential Dosiomics: Decoupling and Propagating Registration Uncertainty for Robust Dosimetric Violation Prediction in Adaptive Radiotherapy.
+Evidential Dosiomics: Uncertainty-Aware Machine Learning for Toxicity Prediction in Adaptive Radiotherapy.
 
 ## Overview
 
 This repository contains the official implementation of the paper:
 
-**"Evidential Dosiomics: Decoupling and Propagating Registration Uncertainty for Robust Dosimetric Violation Prediction in Adaptive Radiotherapy"**  
-*Yongjin Deng, Shuang Wu, Yong Bao*  
-*Medical Image Analysis (MedIA)*, 2026
+**"Evidential Dosiomics: Uncertainty-Aware Machine Learning for Toxicity Prediction in Adaptive Radiotherapy"**  
+*Yongjin Deng, Shuang Wu, Yong Bao* (2026)
 
 ## Key Features
 
@@ -74,9 +73,9 @@ Evidential-Dosiomics/
 If you find this code useful for your research, please cite:
 
     @article{Deng2026Evidential,
-      title={Evidential Dosiomics: Decoupling and Propagating Registration Uncertainty for Robust Dosimetric Violation Prediction in Adaptive Radiotherapy},
+      title={Evidential Dosiomics: Uncertainty-Aware Machine Learning for Toxicity Prediction in Adaptive Radiotherapy},
       author={Deng, Yongjin and Wu, Shuang and Bao, Yong},
-      journal={Medical Image Analysis},
+      journal={xx},
       year={2026},
       volume={xx},
       pages={xxx-xxx},
