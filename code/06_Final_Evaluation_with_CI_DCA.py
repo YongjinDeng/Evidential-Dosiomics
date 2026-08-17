@@ -47,7 +47,7 @@ def main():
     df_label = pd.read_csv(LABELS_CSV)
     data = pd.merge(df_feat, df_label, on='Patient_ID')
 
-    X = data.filter(regex='^(CLEAN_|BIOMARKER_|RISK_)')
+    X = data.filter(regex='^(CLEAN_|BIOMARKER_)')
     y = data['Label']
     groups = data['Patient_ID']
     
